@@ -5,12 +5,12 @@ img {
 }
 
 header {
-background-color: #ffffff;
-border-color: #cccccc;
+font-size: 40px;
 font-family: 'Georgia', 'Times New Roman', Times, serif;
 
 }
 body {
     background-color: #ffffff;
     border-color: #dddddd;
+    background-image: url(https://www.drmaxlingo.com/wp-content/uploads/2015/10/background-1150x571.png);
 }
