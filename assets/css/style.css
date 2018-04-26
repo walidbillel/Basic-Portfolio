@@ -1,0 +1,16 @@
+img {
+    float: left;
+    width: 150px;
+    height: 160px;
+}
+
+header {
+background-color: #ffffff;
+border-color: #cccccc;
+font-family: 'Georgia', 'Times New Roman', Times, serif;
+
+}
+body {
+    background-color: #ffffff;
+    border-color: #dddddd;
+}
