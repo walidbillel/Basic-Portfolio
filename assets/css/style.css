@@ -2,12 +2,13 @@ img {
     float: left;
     width: 150px;
     height: 150px;
+    margin-right: 20px;
 }
 
 header {
 font-size: 30px;
 font-family: 'Georgia', 'Times New Roman', Times, serif;
-background-color: grey;
+background-color: lightgrey;
 width: 300px;
 padding: 30px;
 color: white;
@@ -15,8 +16,10 @@ text-align: center;
 margin: 10px;
 }
 body {
+   
+    padding: 0px;
+    margin: 0px; 
     background-color: #ffffff;
-    border-color: #dddddd;
     background-image: url(https://www.drmaxlingo.com/wp-content/uploads/2015/10/background-1150x571.png);
 }
 
@@ -29,14 +32,12 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     
 }
-#p02 {
-    font-style: bold;
-}
+
 
 nav a {
-    display: block;
+    display: inline;
     color: gray;
-    float:right;
+    
     
     
 }
@@ -46,4 +47,10 @@ nav a {
     width: auto;
     background-color: lightgrey;
     
+}
+
+.container {
+    width: 1024px;
+    margin: auto;
+
 }
