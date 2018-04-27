@@ -6,14 +6,15 @@ img {
 }
 
 header {
-font-size: 30px;
-font-family: 'Georgia', 'Times New Roman', Times, serif;
-background-color: lightgrey;
-width: 300px;
-padding: 30px;
-color: white;
-text-align: center;
-margin: 10px;
+
+   font-size: 30px;
+   font-family: 'Georgia', 'Times New Roman', Times, serif;
+   background-color:black;
+   color:white;
+   text-align: center;
+   padding: 30px;
+   font-weight: bold;
+
 }
 body {
    
@@ -25,32 +26,41 @@ body {
 
 h1 {
     font-family: 'Georgia', 'Times New Roman', Times, serif;
-    color: grey;
+    color: black;
 }
 
- li {
-    font-family: Arial, Helvetica, sans-serif;
+ li a {
+
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
     
 }
 
-
-nav a {
-    display: inline;
-    color: gray;
-    
-    
-    
+li a:hover {
+    background-color: #111;
 }
+
 #About {
     margin: 10px;
     height: 200px;
     width: auto;
-    background-color: lightgrey;
+    background-color:rgb(213, 232, 238);
     
 }
 
 .container {
     width: 1024px;
     margin: auto;
+  
+}
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
