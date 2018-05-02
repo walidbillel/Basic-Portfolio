@@ -24,6 +24,7 @@ body {
     margin: 0px; 
     background-color: #ffffff;
     background-image: url(https://www.pixeden.com/media/k2/galleries/165/002-subtle-light-pattern-background-texture-vol5.jpg);
+    height: 960px;
 }
 
 h1 {
@@ -69,7 +70,7 @@ form {
 
 
 .name {
-
+    
     height: 30px;
     width:500px;
     margin: 10px;
@@ -89,11 +90,11 @@ form {
 }
 
 .submit {
-    background-color: black;
+    background-color: rgb(73, 77, 73);
     color:white;
-    height: 40px;
+    height: 50px;
     width: 100px;
-    font-size: 15px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -133,7 +134,7 @@ a:hover {
     width: 700px;
     height: 450px; 
     left: 24%;
-    top: 87px;
+    top: 83px;
     
 }
 
@@ -165,7 +166,7 @@ article {
     background-color:cadetblue;
     width: 700px;
     height: 450px; 
-    bottom: 80px;
+    bottom: 70px;
 
 }
 
@@ -175,6 +176,20 @@ font-family: Arial, Helvetica, sans-serif;
 font-weight: bold;
 padding: 2px;
 text-align: center;
-background-color: ghostwhite;
+background-color: rgb(127, 150, 127);
 
+
+}
+
+.foot {
+
+    position: fixed;
+    background-color: cadetblue;
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+    left: 0px;
+    padding:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
