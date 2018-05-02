@@ -87,8 +87,8 @@ form {
 }
 
 .submit {
-    background-color: rgb(73, 77, 73);
-    color:white;
+    background-color:  rgb(151, 76, 76);
+    color: black;
     height: 50px;
     width: 100px;
     font-size: 20px;
@@ -167,16 +167,18 @@ article {
 
 font-family: Arial, Helvetica, sans-serif;
 font-weight: bold;
-padding: 2px;
+padding: 10px;
 text-align: center;
-background-color: rgb(127, 150, 127);
+background-color: rgb(151, 76, 76);
+position: relative;
+bottom: 50px;
 
 }
 
 .foot {
 
     position: fixed;
-    background-color: cadetblue;
+    background-color:  rgb(151, 76, 76);
     width: 100%;
     bottom: 0px;
     text-align: center;
