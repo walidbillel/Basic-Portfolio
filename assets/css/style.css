@@ -2,15 +2,15 @@ img {
 
     float: left;
     width: 150px;
-    height: 175px;
+    height: 190px;
     margin-right: 4px;
     
 }
 
 header {
 
-   font-size: 30px;
-   font-family: 'Georgia', 'Times New Roman', Times, serif;
+   font-size: 35px;
+   font-family: 'Acme', sans-serif;
    background-color: cadetblue;
    color:black;
    text-align: left;
@@ -30,7 +30,7 @@ body {
 }
 
 h1 {
-    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-family: 'Acme', sans-serif;
     color: black;
     font-size: 30px;
     font-weight: bold;
@@ -46,7 +46,7 @@ h1 {
     font-size: 20px;
     bottom: 70px;
     right: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Acme', sans-serif;
 
 }
 
@@ -65,7 +65,8 @@ form {
     font-weight: bold;
     position: relative;
     left: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 1.5px;
     
 }
 
@@ -75,6 +76,7 @@ form {
     height: 30px;
     width:500px;
     margin: 10px;
+    
     
 }
 
@@ -92,7 +94,7 @@ form {
     height: 50px;
     width: 100px;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Acme', sans-serif;
 }
 
 a {
@@ -106,8 +108,13 @@ a {
 
 a:hover {
 
-    background-color: gray;
+    background-color:grey;
+    font-size: 30px;
 
+}
+
+a:focus {
+    background-color: rgb(226, 197, 197);
 }
 
 #heart {
@@ -117,7 +124,7 @@ a:hover {
     margin: 20px;
     background-color: cadetblue;
     width: 700px;
-    height: 490px;
+    height: 510px;
     bottom: 70px;
     
 }
@@ -129,7 +136,7 @@ a:hover {
     margin: 20px;
     background-color:cadetblue;
     width: 700px;
-    height: 490px; 
+    height: 510px; 
     left: 24%;
     top: 83px;
     
@@ -137,9 +144,11 @@ a:hover {
 
 article {
 
-    line-height: 30px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    line-height: 34px;
+    font-size: 30px;
+    font-family: 'Just Another Hand', cursive;
+    letter-spacing: 1.5px;
+    
     
 }
 
@@ -158,20 +167,21 @@ article {
     margin: 20px;
     background-color:cadetblue;
     width: 700px;
-    height: 490px; 
+    height: 510px; 
     bottom: 70px;
 
 }
 
 .cap {
 
-font-family: Arial, Helvetica, sans-serif;
+font-family: 'Acme', sans-serif;
 font-weight: bold;
 padding: 10px;
 text-align: center;
 background-color: rgb(151, 76, 76);
 position: relative;
 bottom: 50px;
+letter-spacing: 1.5px;
 
 }
 
@@ -183,8 +193,8 @@ bottom: 50px;
     bottom: 0px;
     text-align: center;
     left: 0px;
-    padding:10px;
-    font-family: Arial, Helvetica, sans-serif;
+    padding:8px;
+    font-family: 'Acme', sans-serif;
     font-size: 15px;
 
 }
