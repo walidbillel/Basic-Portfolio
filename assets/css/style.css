@@ -50,7 +50,6 @@ h1 {
 
 }
 
-
 .content {
     width: 800px;
     margin: auto;
@@ -80,7 +79,6 @@ form {
     
 }
 
-
 .message {
 
     height: 150px;
@@ -98,6 +96,7 @@ form {
 }
 
 a {
+
     display: inline-block;
     color: black;
     text-align: center;
@@ -151,7 +150,6 @@ article {
     
     
 }
-
 
 
 .gallery {
